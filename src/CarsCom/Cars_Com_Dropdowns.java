@@ -77,36 +77,6 @@ public class Cars_Com_Dropdowns {
 
         Thread.sleep(2000);
 
-//        WebElement element1 = driver.findElement(By.id("sort-dropdown"));
-//        Select selection = new Select(element1);
-//        selection.selectByValue("list_price");
-//
-//        Thread.sleep(1000);
-//        List<WebElement> elements1 = driver.findElements(By.xpath("//span[@class='primary-price']"));
-//
-//        double priceSelected = 0.0;
-//        for (WebElement lowPrice : elements1) {
-//            Assert.assertTrue(Double.parseDouble(lowPrice.getText().replaceAll("[$,]", "")) >= priceSelected);
-//            priceSelected = Double.parseDouble(lowPrice.getText().replaceAll("[$,]", ""));
-////            System.out.println(priceSelected);
-//        }
-//
-//        selection.selectByValue("mileage_desc");
-////
-//        List<WebElement> elements2 = driver.findElements(By.xpath("//div[@class='mileage'][contains(text(),' mi.')]"));
-////
-//        long mileageSelected =1000000000;
-//
-//
-//        Thread.sleep(2000);
-//
-//        for (WebElement highMileage : elements2) {
-//            Assert.assertTrue(Long.parseLong(highMileage.getText().replaceAll("[$,mi. ]", "")) < mileageSelected);
-//            mileageSelected = (Long.parseLong(highMileage.getText().replaceAll("[$,mi. ]", "")));
-//
-//            System.out.println(mileageSelected);
-//        }
-
         WebElement element1 = driver.findElement(By.id("sort-dropdown"));
         Select selection = new Select(element1);
         selection.selectByValue("list_price");
