@@ -9,7 +9,7 @@ import java.time.Duration;
 import static io.netty.util.internal.SystemPropertyUtil.contains;
 import static sun.management.Agent.getText;
 
-public class Demo {
+public class Duotify {
     public static void main(String[] args) throws InterruptedException {
 
         System.setProperty("webdriver.chrome.driver", "C:\\Users\\asifg\\Downloads\\chromedriver_win32\\chromedriver.exe");

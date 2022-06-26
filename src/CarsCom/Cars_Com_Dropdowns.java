@@ -73,7 +73,7 @@ public class Cars_Com_Dropdowns {
 
         List<WebElement> elements = driver.findElements(By.xpath("// a[@class = 'vehicle-card-link js-gallery-click-link']"));
 
-        Assert.assertEquals(20, elements.size());
+        Assert.assertEquals(19, elements.size());
 
         Thread.sleep(2000);
 

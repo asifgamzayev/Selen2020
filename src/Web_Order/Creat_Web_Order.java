@@ -1,3 +1,5 @@
+package Web_Order;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
@@ -51,6 +53,7 @@ public class Creat_Web_Order {
         driver.findElement(By.id("ctl00_MainContent_fmwOrder_TextBox2")).sendKeys(newCustomer[3] + " " + newCustomer[2] + Keys.ENTER);
         driver.findElement(By.id("ctl00_MainContent_fmwOrder_TextBox3")).sendKeys(newCustomer[4] + Keys.ENTER);
         driver.findElement(By.id("ctl00_MainContent_fmwOrder_TextBox4")).sendKeys(newCustomer[5] + Keys.ENTER);
+        driver.findElement(By.id("ctl00_MainContent_fmwOrder_TextBox5")).sendKeys(newCustomer[6] + Keys.ENTER);
 
 
 
